@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>testaemsite Package</comment>
+<entry key="createdBy">Jim</entry>
+<entry key="name">testaemsite-content</entry>
+<entry key="created">2016-11-22T10:29:01.909+0000</entry>
+<entry key="groupId">ensemble.testaemsite</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">testaemsite</entry>
+<entry key="description">Maven Multimodule project for testaemsite.</entry>
+<entry key="artifactId">testaemsite-content</entry>
+<entry key="path">/etc/packages/testaemsite/testaemsite-content.zip</entry>
+</properties>
