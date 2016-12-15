@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1479810541388
-Build-Jdk: 1.8.0_91
+Bnd-LastModified: 1481798471080
+Build-Jdk: 1.8.0_111
 Built-By: Jim
 Bundle-Description: Maven Multimodule project for testaemsite.
 Bundle-ManifestVersion: 2

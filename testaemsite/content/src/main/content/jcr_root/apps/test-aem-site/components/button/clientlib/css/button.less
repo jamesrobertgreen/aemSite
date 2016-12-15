@@ -1,0 +1,67 @@
+a {
+    color: #fe5000;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a.selected {
+    color: #fe5000;
+    outline: none;
+}
+
+.btn.btn-orange:before {
+    display: inline-block !important
+}
+
+.btn {
+    border: 2px solid #fe5000;
+    color: #fe5000 position: relative;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 8px 20px;
+    margin-bottom: 15px;
+    white-space: normal;
+    vertical-align: top;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition-property: color;
+    transition-duration: .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    overflow: hidden
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #fff
+}
+
+.btn:before {
+    background: #fe5000;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 -10px 0 -10px;
+    overflow: hidden;
+    pointer-events: none;
+    -webkit-transform: skew(-20deg) translateX(-100%);
+    transform: skew(-20deg) translateX(-100%);
+    transition: .25s ease-in-out
+}
+
+.btn:hover:before,
+.btn:focus:before,
+.btn:active:before {
+    -webkit-transform: skew(-20deg) translateX(0);
+    transform: skew(-20deg) translateX(0)
+}
