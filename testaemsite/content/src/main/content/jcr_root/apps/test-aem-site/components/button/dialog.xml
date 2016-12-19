@@ -13,6 +13,6 @@
             jcr:primaryType="cq:Widget"
             fieldLabel="URL"
             name="./url"
-            xtype="textfield"/>
+            xtype="pathfield"/>
     </items>
 </jcr:root>

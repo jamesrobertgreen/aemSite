@@ -1,5 +1,5 @@
 <!--/* Include the site client libraries (loading only the CSS in the header, JS will be loaded in the footer) */-->
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='test.page'}" data-sly-unwrap/>
-
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-unwrap/>
+<sly data-sly-call="${clientlib.css @ categories='test.page'}" data-sly-unwrap/>
 <!--/* Initializes the Experience Manager authoring UI */-->
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
